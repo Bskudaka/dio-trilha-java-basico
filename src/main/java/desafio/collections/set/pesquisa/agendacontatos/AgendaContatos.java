@@ -1,8 +1,5 @@
 package desafio.collections.set.pesquisa.agendacontatos;
 
-import desafio.collections.list.ordenacao.pessoas.Pessoa;
-
-import javax.print.DocFlavor;
 import java.util.HashSet;
 import java.util.Set;
 import java.util.stream.Collectors;
@@ -15,7 +12,7 @@ public class AgendaContatos {
         this.contatoSet = new HashSet<>();
     }
 
-    public void adicionarContato(String nome, String numero) {
+    public void adicionarContato(String nome, int numero) {
         contatoSet.add(new Contato(nome, numero));
     }
 
@@ -33,7 +30,7 @@ public class AgendaContatos {
         return pesquisaEncontrada;
     }
 
-    public void atualizarNumeroContato(String nome, String novoNumero) {
+    public void atualizarNumeroContato(String nome, int novoNumero) {
         for (Contato c : contatoSet) {
             if (c.getNome().equalsIgnoreCase(nome)) {
                 c.setNumeroTelefone(novoNumero);

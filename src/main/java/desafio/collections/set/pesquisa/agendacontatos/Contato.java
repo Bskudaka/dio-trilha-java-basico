@@ -5,9 +5,9 @@ import java.util.Objects;
 public class Contato {
 
     private String nome;
-    private String numeroTelefone;
+    private int numeroTelefone;
 
-    public Contato(String nome, String numeroTelefone) {
+    public Contato(String nome, int numeroTelefone) {
         this.nome = nome;
         this.numeroTelefone = numeroTelefone;
     }
@@ -16,11 +16,11 @@ public class Contato {
         return nome;
     }
 
-    public String getNumeroTelefone() {
+    public int getNumeroTelefone() {
         return numeroTelefone;
     }
 
-    public void setNumeroTelefone(String numeroTelefone) {
+    public void setNumeroTelefone(int numeroTelefone) {
         this.numeroTelefone = numeroTelefone;
     }
 
