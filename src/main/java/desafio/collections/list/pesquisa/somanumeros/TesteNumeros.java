@@ -20,6 +20,8 @@ public class TesteNumeros {
         int menorNumero = numeros.encontrarMenorNumero();
         System.out.println("Numero menor da lista: " + menorNumero);
 
+        numeros.calcularSoma();
+
 
     }
 
