@@ -1,6 +1,4 @@
-package desafio.collections.set.operacaobasica.palavras;
-
-import desafio.collections.set.ordenacao.cadastroprodutos.Produto;
+package desafio.collections.set.ordenacao.cadastroprodutos;
 
 import java.util.Comparator;
 

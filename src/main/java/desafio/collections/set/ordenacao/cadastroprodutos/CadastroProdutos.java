@@ -1,7 +1,5 @@
 package desafio.collections.set.ordenacao.cadastroprodutos;
 
-import desafio.collections.set.operacaobasica.palavras.ComparatorPorPreco;
-
 import java.util.HashSet;
 import java.util.Set;
 import java.util.TreeSet;
